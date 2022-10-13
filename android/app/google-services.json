@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "221421704581",
+    "project_id": "prediction-league-app",
+    "storage_bucket": "prediction-league-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221421704581:android:fc52dd1210ef475d8c60ec",
+        "android_client_info": {
+          "package_name": "com.prediction.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221421704581-p48aniij2j8496jker9jlr3hihmag1jj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.prediction.app",
+            "certificate_hash": "2c51b89266fe84f8998cb782e45c66c912748c9c"
+          }
+        },
+        {
+          "client_id": "221421704581-ms7tcstmh211281tkp0kgsadibscogpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe4Is3tlm9XpZv_cu0cy9ZgMjhVJnCaO4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221421704581-ms7tcstmh211281tkp0kgsadibscogpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

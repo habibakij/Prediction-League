@@ -1,0 +1,89 @@
+name: prediction
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  google_fonts: any
+  intl: any
+  flutter_screenutil: ^5.4.0+1
+  get: any
+  flutter_svg: any
+  provider: any
+  fluttertoast: any
+  connectivity_plus: any
+  lottie: any
+  flutter_switch: ^0.3.2
+  shared_preferences: any
+  geolocator:
+  geocoding:
+  google_maps_flutter:
+  country_picker: ^2.0.15
+  http: any
+  dio: any
+  image_picker: any
+  image_cropper: any
+  cached_network_image: any
+  flutter_overlay_loader: ^2.0.0
+  expandable_page_view: ^1.0.17
+  firebase_core: ^1.24.0
+  firebase_messaging: ^13.1.0
+  flutter_local_notifications: any
+  loading_progress: any
+  firebase_dynamic_links: ^4.3.5
+  timeago: ^3.3.0
+  flutter_speed_dial: ^6.0.0
+  google_sign_in: ^5.4.1
+  share_plus: any
+  flutter_html: ^2.2.1
+  url_launcher: any
+  path_provider: any
+  permission_handler: any
+  scrollable_positioned_list: ^0.3.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/home_icon1.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/lottie/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+
+    - family: DIN Next LT Arabic
+      fonts:
+        - asset: assets/fonts/DIN Next LT Arabic Light.ttf
